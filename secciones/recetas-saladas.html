@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recetas Saladas | Hadita Sin TACC</title>
+</head>
+<body>
+    <!-- +++ CABECERA +++ -->
+    <header>
+        <div class="header-banner">
+            <h1>Hadita Sin TACC</h1>
+        </div>
+        
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Recetas saladas</a></li>
+                <li><a href="#">Recetas dulces</a></li>
+                <li><a href="#">Conoce la app</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- +++ PRESENTACION DE LA PÁGINA -->
+    <main>
+        <section class="presentacion-de-pagina">
+            <div class="intro-texto">
+                <h2>Recetas salHaditas</h2>
+                <p>Un rincón donde amasar sin gluten es simple y reconfortante. Tartas, panes, empanadas y muchas comidas que te solucionan almuerzos, cenas y antojos.</p>
+                <a href="../recetas/chipa.html">Mira la receta salada de la semana!</a>
+            </div>
+            
+            <!-- ++ COLUMNA DE SELLOS CONSCIENTES ++ -->
+            <aside class="columna-sellos">
+                <h3>Guía de sellos conscientes</h3>
+                <ul>
+                    <li>
+                        <img src="../imagenes/icono_sinazucar.jpg" alt="Icono sin azucar">
+                        <div>
+                            <p><strong>Sin azúcar refinada</strong></p>
+                            <p>Apta diabéticos y estilo keto.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../imagenes/icono_conazucar.jpg" alt="Icono con azucar">
+                        <div>
+                            <p><strong>Con azúcar añadida</strong></p>
+                            <p>Uso de azúcar común o mascabo.</p>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="recetas-saladas">
+            <h2>Explora todas las recetas saladas</h2>
+            <!-- +++ BARRA DE BÚSQUEDA Y FILTROS +++  -->
+            <aside class="busqueda-filtros">
+                <div class="busqueda-tiposello-tiempo">
+                    <div class="buscador">
+                        <img src="../iconos/busqueda.png" alt="Icono busqueda">
+                        <p>Buscá tu receta</p>
+                    </div>
+                    <div class="sello-cosciente">Sello consciente</div>
+                    <div class="tiempo-coccion">Tiempo de cocción</div>
+                </div>
+                <div class="ordenar-por">
+                    <span>Ordenar por:</span>
+                    <div class="select">Más recientes</div>
+                </div>
+            </aside>
+
+            <!-- +++ GRILLA DE RECETAS +++ -->
+            <div class="grilla-recetas">
+                <!-- CHIPA -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/chipa_de_queso.jpg" alt="Chipa de queso sin tacc">
+                    </figure>
+                    <p>40 min | Media | 16 unidades</p>
+                    <h3>Chipá de queso</h3>
+                    <p>Una receta típica con fécula de mandioca pura y doble, con...</p>
+                    <a href="../recetas/chipa.html">Ver receta</a>
+                </article>
+                <!-- TACOS DE VERDURA -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/tacos-de-verdura.jpg" alt="Tacos de verdura sin tacc">
+                    </figure>
+                    <p>25 min | Fácil | 4 unidades</p>
+                    <h3>Tacos de verdura</h3>
+                    <p>Masa flexible de maíz y fécula que no se rompe al doblarla, rellena de...</p>
+                    <a href="#">Ver receta</a>
+                </article>
+                <!-- PIZZA NAPOLITANA -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/pizza_napolitana.jpg" alt="Pizza napolitana sin tacc">
+                    </figure>
+                    <p>45 min | Fácil | 1 unidad</p>
+                    <h3>Pizza napolitana</h3>
+                    <p>Una típica comida pero con masa libre de gluten, leudada lent...</p>
+                    <a href="#">Ver receta</a>
+                </article>
+                <!-- EMPANADAS DE CARNE -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/empanadas.jpg" alt="Empanadas de carne sin tacc">
+                    </figure>
+                    <p>50 min | Media | 12 unidades</p>
+                    <h3>Empanadas de carne</h3>
+                    <p>Clásica masa de premezcla que no se rompe, con jugosa car...</p>
+                    <a href="#">Ver receta</a>
+                </article>
+                <!-- HAMBURGUESAS -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/hamburguesas.jpg" alt="Hamburguesas sin tacc">
+                    </figure>
+                    <p>30 min | Fácil | 4 unidades</p>
+                    <h3>Hamburguesas</h3>
+                    <p>Jugosa carne casera entre esponjosos panes de arroz libres de glu...</p>
+                    <a href="#">Ver receta</a>
+                </article>
+                <!-- TARTA DE VERDURAS -->
+                <article>
+                    <figure>
+                        <img src="../imagenes/tarta_verdura.jpg" alt="Tarta de verduras sin tacc">
+                    </figure>
+                    <p>45 min | Media | 1 unidad</p>
+                    <h3>Tarta de verduras</h3>
+                    <p>Masa crujiente de semillas sin gluten que no se humedece, con ver...</p>
+                    <a href="#">Ver receta</a>
+                </article>
+            </div>
+
+            <!-- +++ CONTADOR DE PÁGINAS +++ -->
+            <div class="paginacion">
+                <p>Mostrando página 1 de 20 (60 recetas)</p>
+                <nav>
+                    <ul>
+                        <li><span>&lt;</span></li> <!-- flecha hacia atrás -->
+                        <!-- Pag en la que estoy -->
+                        <li><a href="#" class="pagina-activa">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">&gt;</a></li> <!-- flecha hacia adelante -->
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- +++ VUELTA A FORMULARIO PARA ENVIAR RECETA +++ -->
+        <section class="formulario-receta">
+            <h2>¿Querés compartir tu receta?</h2>
+            <p>¡Manda tu receta para compartir con la comunidad! Junt@s construimos un recetario más rico, accesible y con amor.</p>
+            <a href="../index.html#formulario">Compartir mi receta</a>
+        </section>
+        </main>   
+
+    <!-- +++ FOOTER +++ -->
+    <footer>
+        <div class="footer-logo">
+            <figure>
+                <img src="../imagenes/logotipo_haditasintacc.png" alt="Logotipo Hadita sin TACC">
+            </figure>
+        </div>
+        <div class="footer-redes">
+            <ul>
+                <li>
+                    <a href="https://instagram.com/solarostegui.estudio"target="_blank"><img src="../iconos/instagram.png" alt="Icono Instagram">solarostegui.estudio</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/sol.arostegui501"target="_blank"><img src="../iconos/facebook.png" alt="Icono Facebook">sol.arostegui501</a>
+                </li>
+                <li>
+                    <a href="https://github.com/solarostegui"target="_blank"><img src="../iconos/github.png" alt="Icono Github">solarostegui</a>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="footer-volver">
+            <a href="#">Volver</a>
+        </div>
+    </footer>
+</body>
+</html>
